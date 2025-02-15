@@ -398,7 +398,7 @@ local thumbSize = Enum.ThumbnailSize.Size420x420
 local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
 
 StarterGui:SetCore("SendNotification", {
-    Title = "环绕 V4",
+    Title = "Super ring parts V4",
     Text = "enjoy",
     Icon = content,
     Duration = 5
