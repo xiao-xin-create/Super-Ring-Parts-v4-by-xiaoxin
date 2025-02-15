@@ -381,13 +381,13 @@ end)
 
 DecreaseRadius.MouseButton1Click:Connect(function()
     radius = math.max(1, radius - 5)
-    RadiusDisplay.Text = "半径: " .. radius
+    RadiusDisplay.Text = "radius: " .. radius
     playSound("12221967")
 end)
 
 IncreaseRadius.MouseButton1Click:Connect(function()
     radius = math.min(1000, radius + 5)
-    RadiusDisplay.Text = "半径: " .. radius
+    RadiusDisplay.Text = "radius: " .. radius
     playSound("12221967")
 end)
 
