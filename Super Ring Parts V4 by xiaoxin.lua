@@ -1,4 +1,4 @@
-"local Players = game:GetService("Players")
+local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 local LocalPlayer = Players.LocalPlayer
@@ -415,4 +415,4 @@ local function SendChatMessage(message)
 end
 
 -- Send the chat message
-SendChatMessage("环绕V4  由小欣汉化")"
+SendChatMessage("环绕V4  由小欣汉化")
